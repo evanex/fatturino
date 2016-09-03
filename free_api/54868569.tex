@@ -1,0 +1,55 @@
+\documentclass{invoice} % Use the custom invoice class (invoice.cls)
+\usepackage{eurosym}
+\usepackage{tabularx}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\def \tab {\hspace*{3ex}} % Define \tab to create some horizontal white space
+\begin{document}
+\begin{center}
+\Huge\bf FAMSAS S.R.L. % Company providing the invoice
+\end{center}
+\begin{tabularx}{\textwidth}{l X   r}
+ & &     \\ [0.1ex]
+P.IVA VIA PRIVATA PO & &  C.FISC 20037 PADERNO DUGNAN \\ [0.1ex]
+\end{tabularx}
+
+\bigskip
+\bigskip
+
+\begin{tabularx}{\textwidth}{l X l  r}
+
+{\bf Spett.le:}  & &   {\bf Data:}  & 2014-12-29   \\
+\tab  FAMOUS TRADING LLC  & &  {\bf Numero fattura:}   & Proforma \\ 
+\tab   & &  & \\
+\tab   & &   & \\
+\tab P.IVA DEIRA DUBAI  & &  &  \\ 
+\tab C.FISC P.O.BOX 1235 & &  &  \\ 
+\end{tabularx}
+
+\bigskip
+\bigskip
+\feetype{10 aprile 2008} % Fee category description
+\bigskip
+\begin{center}
+ \begin{tabularx}{\textwidth}{X  c r }
+
+Importo imponibile & \EUR & 0,00 \\ 
+IVA 22\% & \EUR & 0,00 \\ 
+ \hline \textbf{Totale da corrispondere} & \EUR & 0,00 \\ 
+
+\end{tabularx}
+\end{center}
+
+
+La presente non costituisce fattura. La stessa sar\`a emessa e rilasciata al committente dopo il pagamento del corrispettivo, a norma degli artt. 6, 18 e 21 del D.P.R. 26.10.1972 n. 633
+
+\bigskip
+\vspace*{\fill}
+La Risoluzione n.132/E del 28 maggio 1997 del M.d.F. precisa che le informazioni stampate su fatture
+possono essere trasmesse elettronicamente al cliente senza provvedere all'invio in forma cartacea
+del documento; il cliente, a sua volta può provvedere direttamente alla stampa o alla registrazione
+dei documenti elettronici mediante la memorizzazione dei dati.
+
+%----------------------------------------------------------------------------------------
+
+\end{document}

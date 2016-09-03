@@ -1,0 +1,14 @@
+[
+   	
+	 { "link" : "config", "title" : "I tuoi dati" , "icon" : "icon-edit" },
+
+	 { "link" : "fatture", "title" : "Fatture" , "icon" : "icon-list" },
+
+	
+	 { "link" : "taxes", "title" : "Impostazioni" , "icon" : " icon-legal" }, 
+
+	 { "link" : "taxes", "title" : "API" , "icon" : " icon-beaker" }, 
+
+	 { "link" : "taxes", "title" : "Contattaci" , "icon" : "icon-comments-alt" } 
+
+]

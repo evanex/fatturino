@@ -1,0 +1,52 @@
+\documentclass{invoice} % Use the custom invoice class (invoice.cls)
+\usepackage{eurosym}
+\usepackage{tabularx}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\def \tab {\hspace*{3ex}} % Define \tab to create some horizontal white space
+\begin{document}
+\begin{center}
+\Huge\bf $ragione_sociale$ % Company providing the invoice
+\end{center}
+\begin{tabularx}{\textwidth}{l X   r}
+$indirizzo$ & &  $citta_cap$   \\ [0.1ex]
+P.IVA $partita_iva$ & &  C.FISC $codice_fiscale$ \\ [0.1ex]
+\end{tabularx}
+
+\bigskip
+\bigskip
+
+\begin{tabularx}{\textwidth}{l X l  r}
+
+{\bf Spett.le:}  & &   {\bf Data:}  & $data_fatt$   \\
+\tab  $dest_ragione_sociale$  & &  {\bf Numero fattura:}   & $num_fatt$ \\ 
+\tab $dest_idirizzo$  & &  & \\
+\tab $dest_citta_cap$  & &   & \\
+\tab P.IVA $dest_partita_iva$  & &  &  \\ 
+\tab C.FISC $dest_codice_fiscale$ & &  &  \\ 
+\end{tabularx}
+
+\bigskip
+\bigskip
+\feetype{$descrizione$} % Fee category description
+\bigskip
+\begin{center}
+ \begin{tabularx}{\textwidth}{X  c r }
+
+$RIGHE_FATTURA$
+\end{tabularx}
+\end{center}
+
+
+$PROFORMA_TEXT$
+
+\bigskip
+\vspace*{\fill}
+La Risoluzione n.132/E del 28 maggio 1997 del M.d.F. precisa che le informazioni stampate su fatture
+possono essere trasmesse elettronicamente al cliente senza provvedere all'invio in forma cartacea
+del documento; il cliente, a sua volta può provvedere direttamente alla stampa o alla registrazione
+dei documenti elettronici mediante la memorizzazione dei dati.
+
+%----------------------------------------------------------------------------------------
+
+\end{document}

@@ -1,0 +1,8 @@
+{
+ "title" : "Fatture"
+ ,
+ "description" : "Tutte le operazioni sulle tue fatture attive già emesse"
+ ,
+ "scripts" : ["dataTables"]
+ 
+}

@@ -1,0 +1,10 @@
+{
+ "version" : "1.0",
+ "title" : "Fatturino",
+ "brand_text" : "Fatturino",
+ "brand_icon" : "icon-truck",
+
+ "remote_jquery" : false,
+ "remote_fonts" : false,
+ "demo": false
+}
